@@ -9,6 +9,9 @@ set :database, { adapter: 'sqlite3', database: 'pizzashop.sqlite' }
 class Product < ActiveRecord::Base
 end
 
+class Order < ActiveRecord::Base
+end
+
 configure do
   enable :sessions
 end
